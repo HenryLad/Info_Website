@@ -122,23 +122,50 @@
 .card4:hover .discord {
   fill: white;
 }
- a{
-   color: white;
-   text-decoration: none;
- }
- h1{
-   text-align: center;
-   margin-top:4rem ;
- }
-.ProfilePicture{
-   display: flex;
-   justify-content: center;
-   align-items: center; 
-   border-radius: 50%;
-   
+
+a {
+  color: white;
+  text-decoration: none;
 }
-.github{
+
+h1 {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.ProfilePicture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+
+}
+
+.github {
   display: flex;
   justify-content: right;
   align-items: bottom;
+}
+
+.Desgin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  gap: 3rem;
+
+}
+
+.Desgin img {
+  border-radius: 5%;
+  margin: 0 1rem;
+}
+.BoxDesgin{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  gap: 3rem;
 }
